@@ -76,7 +76,7 @@ h3 {
   height: 112px;
   background-color: var(--footer-text-color);
   border-radius: 4px;
-  margin-bottom: 8px; 
+  margin-bottom: 8px;
 }
 
 /* Container */
@@ -192,6 +192,13 @@ h3 {
 .auth-nav {
   display: flex;
   gap: 40px;
+  font-style: normal;
+  margin-left: auto;
+}
+
+.auth-list {
+  display: flex;
+  gap: 40px;
 }
 
 .auth-nav .auth {
@@ -201,10 +208,6 @@ h3 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
-}
-
-.auth-nav {
   font-style: normal;
 }
 
