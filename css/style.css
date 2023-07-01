@@ -32,6 +32,16 @@
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 h2,
 h3 {
   color: var(--title-text-color);
@@ -138,7 +148,8 @@ h3 {
   color: var(--accent-text-color);
 
   margin-right: 76px;
-
+  display: inline-flex;
+  margin-bottom: 17.5px;
   text-transform: uppercase;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -211,6 +222,8 @@ h3 {
 .auth-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .auth-nav .auth {
@@ -227,6 +240,8 @@ h3 {
 .auth-nav .auth:focus {
   color: var(--bcg-button-color);
 }
+
+
 
 /* Hero */
 .hero-title {
