@@ -98,6 +98,15 @@ h3 {
   padding-right: 15px;
 }
 
+.container-what-are-we-doing {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 32px 0;
+}
+
 .container-hero {
   margin-left: auto;
   margin-right: auto;
@@ -135,8 +144,6 @@ h3 {
   background-color: var(--footer-text-color);
   border-radius: 4px;
   margin-bottom: 8px;
-  
-  
 }
 
 /*Page Header*/
@@ -227,13 +234,12 @@ h3 {
 }
 
 .site-nav .link::after {
-   position: absolute;
-   left: 0;
-   bottom: -1px;
-   height: 4px;
-   background-color: var(--bcg-button-color);
-   border-radius: 2px;
-
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--bcg-button-color);
+  border-radius: 2px;
 }
 
 /* Auth Nav */
@@ -312,10 +318,6 @@ h5,
 h6,
 p {
   margin: 0;
-}
-
-.list-img {
-  width: calc((100% - 48px) / 3);
 }
 
 .section-title {
@@ -461,13 +463,12 @@ button {
 
 /* Customers */
 .customers-title {
-color: var(--title-text-color);
+  color: var(--title-text-color);
 
-font-size: 36px;
-letter-spacing: 0.72px;
-line-height: 40px;
-text-align: center;
-
+  font-size: 36px;
+  letter-spacing: 0.72px;
+  line-height: 40px;
+  text-align: center;
 }
 
 /* all works */
@@ -572,4 +573,10 @@ text-align: center;
 .photo {
   display: flex;
   gap: 24px;
+}
+
+.list-img {
+  width: calc((100% - 48px) / 3);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
