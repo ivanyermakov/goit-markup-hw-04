@@ -214,6 +214,16 @@ h3 {
   color: var(--title-text-color);
 }
 
+.site-nav .link::after {
+   position: absolute;
+   left: 0;
+   bottom: -1px;
+   height: 4px;
+   background-color: var(--bcg-button-color);
+   border-radius: 2px;
+   
+}
+
 /* Auth Nav */
 .auth-nav {
   font-style: normal;
