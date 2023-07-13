@@ -434,6 +434,17 @@ button {
   border-radius: 0px 0px 4px 4px;
 }
 
+/* Customers */
+.customers-title {
+color: var(--title-text-color);
+
+font-size: 36px;
+letter-spacing: 0.72px;
+line-height: 40px;
+text-align: center;
+
+}
+
 /* all works */
 .all-works .title {
   color: var(--title-text-color);
