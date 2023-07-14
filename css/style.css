@@ -153,13 +153,19 @@ h3 {
 }
 
 .container-footer-info {
-  margin-right: 120px
+  margin-right: 120px;
 }
 
 .container-all-works {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+
+.filters-postfolio-container {
+  position: relative;
+  overflow: hidden;
+  display: block;
 }
 
 .for-icons {
@@ -447,7 +453,6 @@ button {
   color: var(--footer-text-color);
 }
 
-
 /* Team */
 .team {
   display: flex;
@@ -489,6 +494,18 @@ button {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.our-team-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--accent-text-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Customers */
@@ -631,6 +648,22 @@ button {
   border: 1px solid var(--border-color);
 }
 
+.filter-cover-text {
+  position: absolute;
+    padding: 40px 32px;
+    color: var(--footer-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: var(--accent-text-color);
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 0;
+}
+
 /* What we are doing */
 .section-wawd {
   padding-top: 0;
@@ -650,11 +683,12 @@ button {
 
 /* Social */
 .social-text {
-  font-weight: 500;
-  font-size: 16px ;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--white-text-color);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
 
@@ -669,13 +703,14 @@ button {
 }
 
 .social-link {
-  width: 100%;
-  height: 100%;
-  background-color: var(--accent-text-color);
-  border-radius:  50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-text-color);
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -685,15 +720,38 @@ button {
 
 .social-svg {
   fill: var(--footer-text-color);
-  transition-property: var(--accent-text-color) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--accent-text-color) 250ms
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Modal */
 .modal-container {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  
+  background-color: rgba(46, 47, 66, 0.4);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.current-page {
+  color: var(--bcg-button-color);
+  position: relative;
+}
+
+.current-page::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  background-color: var(--ocean-color);
+  border-radius: 2px;
+  width: 100%;
+  height: 4px;
+}
+
+::after,
+::before {
+  box-sizing: border-box;
 }
