@@ -796,11 +796,14 @@ button {
 .modal-button:hover,
 .modal-button:focus {
   background-color: var(--bcg-button-color);
+  border: none;
+  fill: var(--white-text-color);
 }
 
-.modal-svg:hover,
-.modal-svg:focus {
-  fill: var(--white-text-color);
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .modal-svg {
