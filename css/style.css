@@ -162,7 +162,7 @@ h3 {
   border-top: none;
 }
 
-.filters-postfolio-container {
+.filters-portfolio-container {
   position: relative;
   overflow: hidden;
 }
@@ -667,6 +667,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 
+}
+
+.card-link:hover .overlay,
+.card-link:focus .overlay {
+  transform: translateY(0%)
 }
 
 .all-works {
