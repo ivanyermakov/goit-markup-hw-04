@@ -279,6 +279,10 @@ h3 {
   border-radius: 2px;
 }
 
+.site-nav-link {
+  color: var(--bcg-button-color);
+}
+
 /* Auth Nav */
 .auth-nav {
   font-style: normal;
@@ -528,7 +532,6 @@ button {
 
 
 .our-team-list {
-
   padding: 120px 0;
   background-color: var(--light);
 }
@@ -593,23 +596,17 @@ button {
   fill: var(--light);
 }
 
-.team-soc-link:hover,
-.team-soc-link:focus {
+.team-link:hover {
+  background-color: var(--actions);
+}
+.team-link:focus {
   background-color: var(--actions);
 }
 
-
 .our-team-list {
-  box-shadow: 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
-
-
-
-
 
 /* Customers */
 .customers-title {
