@@ -597,10 +597,10 @@ button {
 }
 
 .team-link:hover {
-  background-color: var(--actions);
+  background-color: var(--bcg-button-color);
 }
 .team-link:focus {
-  background-color: var(--actions);
+  background-color: var(--bcg-button-color);
 }
 
 .our-team-list {
