@@ -209,6 +209,7 @@ h3 {
   letter-spacing: 0.03em;
   font-weight: 800;
   text-decoration: none;
+
 }
 
 .header-logo-span {
@@ -250,7 +251,7 @@ h3 {
 }
 
 .site-nav .link {
-  color: var(--title-text-color);
+  color: var(--bcg-button-color);
 
   padding-top: 24px;
   padding-bottom: 24px;
