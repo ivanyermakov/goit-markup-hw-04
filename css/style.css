@@ -472,6 +472,11 @@ button {
   gap: 24px;
 }
 
+.section-ot {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
 .team-ul {
   display: flex;
   justify-content: center;
@@ -527,10 +532,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding-bottom: 8px;
-}
-
-.our-team-list {
-  background-color: var(--light);
 }
 
 .team-title {
@@ -595,6 +596,11 @@ button {
 .customers-li {
   width: calc((100% - 120px) / 6);
   height: 88px;
+}
+
+.customers-icon:hover,
+.customers-icon:focus {
+  fill: var(--bcg-button-color);
 }
 
 .customers-link {
