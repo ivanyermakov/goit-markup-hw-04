@@ -262,10 +262,27 @@ h3 {
   font-weight: 500;
 }
 
-.site-nav .link:hover {
+
+
+
+
+
+
+/* sdfhdsfkjdsfkjsdfksdfhdsfkl */
+.current-page {
+  color: var(--bcg-button-color);
+  position: relative;
+}
+/* sdfkhsdhhsdfjhdsfjdsf */
+
+
+
+
+
+.site-nav-link:hover {
   color: var(--bcg-button-color);
 }
-.site-nav .link:focus {
+.site-nav-link:focus {
   color: var(--bcg-button-color);
 }
 
@@ -343,7 +360,7 @@ h3 {
   background-size: cover;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
-    url(../images/img-name.jpeg);
+    url();
   padding-top: 188px;
   padding-bottom: 188px;
   max-width: 1440px;
