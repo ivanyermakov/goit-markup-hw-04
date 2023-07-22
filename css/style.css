@@ -251,7 +251,7 @@ h3 {
 }
 
 .site-nav .link {
-  color: var(--bcg-button-color);
+  color: var(--title-text-color);
 
   padding-top: 24px;
   padding-bottom: 24px;
@@ -262,7 +262,9 @@ h3 {
   font-weight: 500;
 }
 
-.site-nav .link:hover,
+.site-nav .link:hover {
+  color: var(--bcg-button-color);
+}
 .site-nav .link:focus {
   color: var(--bcg-button-color);
 }
