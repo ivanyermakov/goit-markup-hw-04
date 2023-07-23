@@ -652,12 +652,12 @@ button {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customers-icon:hover {
+.customers-link:hover {
   border-color: var(--bcg-button-color);
   fill: var(--bcg-button-color);
 }
 
-.customers-icon:focus {
+.customers-link:focus {
   border-color: var(--bcg-button-color);
   fill: var(--bcg-button-color);
 }
