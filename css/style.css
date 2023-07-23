@@ -305,6 +305,22 @@ h3 {
   color: var(--bcg-button-color);
 }
 
+.site-nav-link.current::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  display: block;
+  width: 100%;
+  height:значення ;
+  border-radius:значення ;
+  background-color: значення;
+  }
+
+  .current {
+    position: relative;
+    }
+
 /* Auth Nav */
 .auth-nav {
   font-style: normal;
