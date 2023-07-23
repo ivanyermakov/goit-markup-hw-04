@@ -269,7 +269,7 @@ h3 {
 
 
 /* sdfhdsfkjdsfkjsdfksdfhdsfkl */
-.current-page {
+.current {
   color: var(--bcg-button-color);
   position: relative;
 }
@@ -288,8 +288,8 @@ h3 {
   color: var(--bcg-button-color);
 }
 
-.site-nav .link.current {
-  color: var(--title-text-color);
+.site-nav-link.current {
+  color: var(--bcg-button-color);
 }
 
 .site-nav .link::after {
@@ -302,7 +302,7 @@ h3 {
 }
 
 .site-nav-link {
-  color: var(--bcg-button-color);
+  color: var(--title-text-color);
 }
 
 .site-nav-link.current::after {
@@ -541,10 +541,12 @@ button {
 
 .team-link:hover {
   background-color: var(--bcg-button-color);
+  border-color: var(--bcg-button-color);
 }
 
 .team-link:focus {
   background-color: var(--bcg-button-color);
+  border-color: var(--bcg-button-color);
 }
 
 .team .title {
@@ -784,6 +786,10 @@ button {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+
+.filter-button:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
 .filter-button {
   cursor: pointer;
