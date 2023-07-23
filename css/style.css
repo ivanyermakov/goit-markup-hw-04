@@ -654,12 +654,12 @@ button {
 
 .customers-link:hover {
   border-color: var(--bcg-button-color);
-  fill: var(--bcg-button-color);
+  color: var(--bcg-button-color);
 }
 
 .customers-link:focus {
   border-color: var(--bcg-button-color);
-  fill: var(--bcg-button-color);
+  color: var(--bcg-button-color);
 }
 
 .customers-icon {
