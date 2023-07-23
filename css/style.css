@@ -251,7 +251,7 @@ h3 {
 }
 
 .site-nav .link {
-  color: var(--bcg-button-color);
+  color: var(--title-text-color);
 
   padding-top: 24px;
   padding-bottom: 24px;
